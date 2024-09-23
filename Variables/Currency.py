@@ -1,0 +1,5 @@
+P = float(input("What do you have left in pessos?"))
+S = float(input("what do you have left in soles?"))
+R = float(input("what do you have left in reais?"))
+L = (((P*0.055)+(S*0.26)+(R*0.18))) 
+print(float(L))
