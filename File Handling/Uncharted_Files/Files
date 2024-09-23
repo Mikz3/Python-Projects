@@ -1,0 +1,4 @@
+Uncharted_Files.sent_message = "Hey there! secretmessage."
+
+with open("Uncharted_Files.sent_message.txt,"w") as file:
+  file.write(sent_message)
