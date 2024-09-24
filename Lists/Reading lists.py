@@ -1,0 +1,10 @@
+List_of_books = ["Zero to One","The Lean Startup","The Mom Test","Make It Stick","Life in Code"]
+print("List of books")
+print(List_of_books)
+List_of_books.append("Zero to Sold")
+print("New list of books")
+print(List_of_books)
+List_of_books.remove("Zero to One")
+List_of_books.pop(0)
+print("Removed Books")
+print(List_of_books)
